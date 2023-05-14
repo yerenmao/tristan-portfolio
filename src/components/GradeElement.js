@@ -22,7 +22,7 @@ const GradeElement = ({ type, credit, chiName, engName, avg, grade, gpa }) => {
 
   return (
     <div className="w-full my-4 py-2 flex border-2 rounded-2xl border-darkd/75 dark:border-lightd/75 text-darkd dark:text-lightd">
-      <div className={`w-[120px] px-2 ml-2 hidden lg:flex justify-center items-center border-2 rounded-full text-sm ${borderColor}`}>
+      <div className={`w-[120px] px-2 ml-2hidden lg:flex justify-center items-center border-2 rounded-full text-sm ${borderColor}`}>
           {type} | {credit} 學分
       </div>
       <div className='w-full flex justify-between items-center'>

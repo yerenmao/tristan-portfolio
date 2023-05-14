@@ -74,7 +74,8 @@ const MyGrades = () => {
       <div className="w-[90%] md:w-[75%] mb-40">
         {
           gradesObj.map((list) => (
-            <GradeList 
+            <GradeList
+              key={list.header.avg}
               search={search}
               requestState={requestState}
               electiveState={electiveState}
