@@ -5,7 +5,7 @@ export const GithubIcon = ({ className, ...rest }) => (
     height="2rem"
     viewBox="0 0 512 512"
     {...rest}
-    className={`w-full h-auto ${className}`}
+    className={`w-[2rem] h-[2rem] ${className}`}
   >
     <path fill="none" d="M0 0h512v512H0z" />
     <path
@@ -22,7 +22,7 @@ export const SunIcon = ({ className, ...rest }) => (
     height="24"
     viewBox="0 0 24 24"
     {...rest}
-    className={`w-full h-auto ${className}`}
+    className={`w-[24px] h-[24px] ${className}`}
   >
     <g
       fill="none"
@@ -200,7 +200,7 @@ export const MoonIcon = ({ className, ...rest }) => (
     height="24"
     viewBox="0 0 24 24"
     {...rest}
-    className={`w-full h-auto ${className}`}
+    className={`w-[24px] h-[24px] ${className}`}
   >
     <rect x="0" y="0" width="24" height="24" fill="rgba(255, 255, 255, 0)" />
     <g

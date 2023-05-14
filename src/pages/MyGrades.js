@@ -26,7 +26,7 @@ const MyGrades = () => {
         {type: '選修', credit: '3', chiName: 'Linux系統與開源軟體', engName: 'Linux System and Open Source Software', avg: '100', grade: 'A+', gpa: '4.3',},
         {type: '選修', credit: '3', chiName: '工程數學', engName: 'Engineering Mathematics', avg: '100', grade: 'A+', gpa: '4.3',},
         {type: '選修', credit: '3', chiName: '資訊安全', engName: 'Information Security', avg: '99', grade: 'A+', gpa: '4.3',},
-        {type: '選修', credit: '1', chiName: '資訊工程倫理與生涯規劃', engName: 'Attitude Brilliance and Career of Computer Science and Information Engineering', avg: '100', grade: 'A+', gpa: '4.3',},
+        {type: '選修', credit: '1', chiName: '資訊工程倫理與生涯規劃', engName: 'Attitude Brilliance and Career of CSIE', avg: '100', grade: 'A+', gpa: '4.3',},
         {type: '通識', credit: '2', chiName: '西方古典音樂', engName: 'Western Classical Music', avg: '98', grade: 'A+', gpa: '4.3',},
       ]
     },
@@ -35,12 +35,12 @@ const MyGrades = () => {
         year: '110 學年', semester: '下學期', short: '110下', credit: '15', classRank: '1', deptRank: '1', avg: '96.4', gpa: '4.3',
       },
       content: [
-        {type: '必修', credit: '3', chiName: '程式設計（二）', engName: '', avg: '96', grade: 'A+', gpa: '4.3',},
-        {type: '必修', credit: '3', chiName: '線性代數', engName: '', avg: '98', grade: 'A+', gpa: '4.3',},
-        {type: '必修', credit: '3', chiName: '微積分（二）', engName: '', avg: '98', grade: 'A+', gpa: '4.3',},
-        {type: '必修', credit: '3', chiName: '普通物理學（二）', engName: '', avg: '95', grade: 'A+', gpa: '4.3',},
-        {type: '通識', credit: '2', chiName: '開放資料與智慧生活', engName: '', avg: '93', grade: 'A+', gpa: '4.3',},
-        {type: '通識', credit: '1', chiName: '踏溯台南', engName: '', avg: '99', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '程式設計（二）', engName: 'Program Design (2)', avg: '96', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '線性代數', engName: 'Linear Algebra', avg: '98', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '微積分（二）', engName: 'Calculus (2)', avg: '98', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '普通物理學（二）', engName: 'General Physics (2)', avg: '95', grade: 'A+', gpa: '4.3',},
+        {type: '通識', credit: '2', chiName: '開放資料與智慧生活', engName: 'Open Data and Smart Life', avg: '93', grade: 'A+', gpa: '4.3',},
+        {type: '通識', credit: '1', chiName: '踏溯台南', engName: 'Exploring Tainan', avg: '99', grade: 'A+', gpa: '4.3',},
       ]
     },
     {
@@ -48,14 +48,14 @@ const MyGrades = () => {
         year: '110 學年', semester: '上學期', short: '110上', credit: '20', classRank: '3', deptRank: '5', avg: '92.8', gpa: '4.24',
       },
       content: [
-        {type: '必修', credit: '3', chiName: '程式設計（ㄧ）', engName: '', avg: '95', grade: 'A+', gpa: '4.3',},
-        {type: '必修', credit: '3', chiName: '數位電路導論', engName: '', avg: '99', grade: 'A+', gpa: '4.3',},
-        {type: '必修', credit: '3', chiName: '微積分（二）', engName: '', avg: '92', grade: 'A+', gpa: '4.3',},
-        {type: '必修', credit: '3', chiName: '普通物理學（二）', engName: '', avg: '96', grade: 'A+', gpa: '4.3',},
-        {type: '通識', credit: '2', chiName: '音樂舞蹈戲劇', engName: '', avg: '93', grade: 'A+', gpa: '4.3',},
-        {type: '通識', credit: '2', chiName: '生技研發成果商品化導論', engName: '', avg: '85', grade: 'A', gpa: '4.0',},
-        {type: '國文', credit: '2', chiName: '大學國文-現代文學與現代性', engName: '', avg: '90', grade: 'A+', gpa: '4.3',},
-        {type: '外語', credit: '2', chiName: '職場英文', engName: '', avg: '87', grade: 'A', gpa: '4.0',},
+        {type: '必修', credit: '3', chiName: '程式設計（ㄧ）', engName: 'Program Design (1)', avg: '95', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '數位電路導論', engName: 'Introduction to Circuit Theory and Digital Electronics', avg: '99', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '微積分（二）', engName: 'Calculus (1)', avg: '92', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '普通物理學（二）', engName: 'General Physics (1)', avg: '96', grade: 'A+', gpa: '4.3',},
+        {type: '通識', credit: '2', chiName: '音樂舞蹈戲劇', engName: 'Drama with Music and Dance', avg: '93', grade: 'A+', gpa: '4.3',},
+        {type: '通識', credit: '2', chiName: '生技研發成果商品化導論', engName: 'Introduction to Biotechnology Commercialization', avg: '85', grade: 'A', gpa: '4.0',},
+        {type: '國文', credit: '2', chiName: '大學國文-現代文學與現代性', engName: 'College Chinese - Modern Literature and Modernity', avg: '90', grade: 'A+', gpa: '4.3',},
+        {type: '外語', credit: '2', chiName: '職場英文', engName: 'English for Careers', avg: '87', grade: 'A', gpa: '4.0',},
       ]
     }
   ]
