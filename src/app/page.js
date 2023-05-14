@@ -16,7 +16,7 @@ export default function Home() {
           <HomePage />
         </Layout>
         <Layout className='bg-lightl dark:bg-darkl min-h-screen'>
-          <Experience />
+          <Experience />          
         </Layout>
       </main>
     </>
