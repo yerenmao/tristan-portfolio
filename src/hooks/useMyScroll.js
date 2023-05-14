@@ -16,7 +16,7 @@ const useMyScroll = () => {
       }
   
       // scrolling down
-      if(currentScroll > lastScroll && !document.body.classList.contains('scroll-down')) {
+      if(currentScroll > 0 && currentScroll > lastScroll && !document.body.classList.contains('scroll-down')) {
         document.body.classList.remove('scroll-up');
         document.body.classList.add('scroll-down');
       }
