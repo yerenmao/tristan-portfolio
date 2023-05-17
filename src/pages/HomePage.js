@@ -44,7 +44,7 @@ const HomePage = () => {
           <div className="mx-5 flex flex-col justify-evenly items-center">
             <h2 className="text-xl font-medium text-darkd/75 dark:text-lightd/75">Projects</h2>
             <span className="inline-block text-4xl font-bold">
-              <AnimatedNumbers value={10} />
+              <AnimatedNumbers value={6} />
             </span>
           </div>
         </div>

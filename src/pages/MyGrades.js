@@ -4,6 +4,7 @@ import SearchBar from "@/components/SearchBar"
 import ToggleButton from "@/components/ToggleButton"
 import { useState } from "react"
 import GradeList from "@/components/GradeList"
+import AnimatedText from "@/components/AnimatedText"
 
 const MyGrades = () => {
 
@@ -62,6 +63,7 @@ const MyGrades = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <AnimatedText text={'My Grades'} className="mb-10 !text-4xl sm:!text-6xl md:text-7xl"/>
       <div className="w-[90%] md:w-[70%] py-5">
         <SearchBar search={search} setSearch={setSearch} />
       </div>
