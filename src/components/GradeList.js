@@ -23,6 +23,8 @@ const GradeList = ({ requestState, electiveState, geState, othersState, search, 
         contentElements.length > 0 ?
           <>
             <GradeHeader 
+              school={header.school}
+              link={header.link}
               year={header.year}
               semester={header.semester}
               short={header.short}

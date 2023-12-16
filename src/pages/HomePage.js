@@ -25,11 +25,25 @@ const HomePage = () => {
           <span className="hidden min-[360px]:inline mr-2 text-xs text-lightt/50 dark:text-darkt/50">{'<畢業高中>'}</span>
             臺北市立建國高級中學
           <span className="hidden min-[360px]:inline ml-2 text-xs text-lightt/50 dark:text-darkt/50">{'</畢業高中>'}</span>
+          <div className="flex text-xs items-center justify-center text-lightt/50 dark:text-darkt/50">
+            2018~2021
+          </div>
+        </div>
+        <div className="my-4">
+          <span className="hidden min-[360px]:inline mr-2 text-xs text-lightt/50 dark:text-darkt/50">{'<之前就讀>'}</span>
+            國立成功大學資訊工程學系
+          <span className="hidden min-[360px]:inline ml-2 text-xs text-lightt/50 dark:text-darkt/50">{'</之前就讀>'}</span>
+          <div className="flex text-xs items-center justify-center text-lightt/50 dark:text-darkt/50">
+            2021~2023
+          </div>
         </div>
         <div className="my-4">
           <span className="hidden min-[360px]:inline mr-2 text-xs text-lightt/50 dark:text-darkt/50">{'<目前就讀>'}</span>
-            國立成功大學資訊工程學系
+            國立臺灣大學資訊工程學系
           <span className="hidden min-[360px]:inline ml-2 text-xs text-lightt/50 dark:text-darkt/50">{'</目前就讀>'}</span>
+          <div className="flex text-xs items-center justify-center text-lightt/50 dark:text-darkt/50">
+            2023~now
+          </div>
         </div>
       </div>
       {/* Age+Years */}

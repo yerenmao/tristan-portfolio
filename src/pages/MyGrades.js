@@ -17,7 +17,20 @@ const MyGrades = () => {
   const gradesObj = [
     {
       header: {
-        year: '111 學年', semester: '上學期', short: '111上', credit: '22', classRank: '1', deptRank: '2', avg: '98.00', gpa: '4.3',
+        school: 'NCKU', link: 'https://www.ncku.edu.tw/', year: '111 學年', semester: '下學期', short: '111下', credit: '17', classRank: '2', deptRank: '3', avg: '96.70', gpa: '4.3',
+      },
+      content: [
+        {type: '必修', credit: '3', chiName: '演算法', engName: 'Algorithms', avg: '97', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '機率與統計', engName: 'Probability and Statistics', avg: '96', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '計算機組織', engName: 'Computer Organization', avg: '100', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '3', chiName: '電腦網路概論', engName: 'Introduction to Computer Network', avg: '93', grade: 'A+', gpa: '4.3',},
+        {type: '選修', credit: '3', chiName: '計算機系統管理', engName: 'Computer System Administration', avg: '97', grade: 'A+', gpa: '4.3',},
+        {type: '通識', credit: '2', chiName: '情緒與壓力管理', engName: 'Emotion and Stress Management', avg: '97', grade: 'A+', gpa: '4.3',},
+      ]
+    },
+    {
+      header: {
+        school: 'NCKU', link: 'https://www.ncku.edu.tw/', year: '111 學年', semester: '上學期', short: '111上', credit: '22', classRank: '1', deptRank: '2', avg: '98.00', gpa: '4.3',
       },
       content: [
         {type: '必修', credit: '3', chiName: '資料結構', engName: 'Data Structure', avg: '98', grade: 'A+', gpa: '4.3',},
@@ -33,7 +46,7 @@ const MyGrades = () => {
     },
     {
       header: {
-        year: '110 學年', semester: '下學期', short: '110下', credit: '15', classRank: '1', deptRank: '1', avg: '96.4', gpa: '4.3',
+        school: 'NCKU', link: 'https://www.ncku.edu.tw/', year: '110 學年', semester: '下學期', short: '110下', credit: '15', classRank: '1', deptRank: '1', avg: '96.4', gpa: '4.3',
       },
       content: [
         {type: '必修', credit: '3', chiName: '程式設計（二）', engName: 'Program Design (2)', avg: '96', grade: 'A+', gpa: '4.3',},
@@ -46,7 +59,7 @@ const MyGrades = () => {
     },
     {
       header: {
-        year: '110 學年', semester: '上學期', short: '110上', credit: '20', classRank: '3', deptRank: '5', avg: '92.8', gpa: '4.24',
+        school: 'NCKU', link: 'https://www.ncku.edu.tw/', ear: '110 學年', semester: '上學期', short: '110上', credit: '20', classRank: '3', deptRank: '5', avg: '92.8', gpa: '4.24',
       },
       content: [
         {type: '必修', credit: '3', chiName: '程式設計（ㄧ）', engName: 'Program Design (1)', avg: '95', grade: 'A+', gpa: '4.3',},
