@@ -17,6 +17,20 @@ const MyGrades = () => {
   const gradesObj = [
     {
       header: {
+        school: 'NTU', link: 'https://www.ntu.edu.tw/', year: '112 學年', semester: '上學期', short: '112上', credit: '13', classRank: '-', deptRank: '1', avg: '-', gpa: '4.3',
+      },
+      content: [
+        {type: '必修', credit: '3', chiName: '系統程式設計', engName: 'Systems Programming', avg: '-', grade: 'A+', gpa: '4.3',},
+        {type: '必修', credit: '0', chiName: '服務學習甲', engName: 'Service Learning (a)', avg: '-', grade: 'pass', gpa: '-',},
+        {type: '選修', credit: '3', chiName: '計算機概論', engName: 'Introduction to Computer', avg: '-', grade: 'A+', gpa: '4.3',},
+        {type: '選修', credit: '2', chiName: '新生講座-能力養成', engName: 'Freshman Forum - Ability Cultivation', avg: '-', grade: 'pass', gpa: '-',},
+        {type: '通識', credit: '3', chiName: '個體經濟學原理', engName: 'Principle of Microeconomics', avg: '-', grade: 'A+', gpa: '4.3',},
+        {type: '體育', credit: '1', chiName: '健康體適能', engName: 'Health Related Physical Fitness', avg: '-', grade: 'A+', gpa: '4.3',},
+        {type: '體育', credit: '1', chiName: '橄欖球', engName: 'Rugby', avg: '-', grade: 'A+', gpa: '4.3',},
+      ]
+    },
+    {
+      header: {
         school: 'NCKU', link: 'https://www.ncku.edu.tw/', year: '111 學年', semester: '下學期', short: '111下', credit: '17', classRank: '2', deptRank: '3', avg: '96.70', gpa: '4.3',
       },
       content: [

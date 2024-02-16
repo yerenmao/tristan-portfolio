@@ -54,6 +54,16 @@ const Experience = () => {
         '/>
           <ul className='w-full flex flex-col items-start justify-between ml-2 sm:xl-4'>
             <Details 
+              experience='成大資工111學年度下學期書卷獎'
+              ranking='班排：2 &nbsp;/&nbsp; 系排：3'
+              time='頒發日期：2023年10月6日'
+            />
+            <Details 
+              experience='轉學考至臺灣大學資訊工程學系(正取)'
+              ranking='130位申請者中取7位'
+              time='公布日期：2023年8月3日'
+            />
+            <Details 
               experience='成大資工111學年度上學期書卷獎'
               ranking='班排：1 &nbsp;/&nbsp; 系排：2'
               time='頒發日期：2023年3月25日'
